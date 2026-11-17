@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>ShotReady: 50 Camera Settings Cheat Sheets for Travel Photography</title>
-<meta name="description" content="50 printable cheat sheets with the exact camera settings for night skies, sunsets, waterfalls, low light and more. Instant PDF download. $19.">
+<title>ShotReady: the Pocket Field System. 50 camera settings cards for your phone</title>
+<meta name="description" content="50 Field Cards on your phone with the exact camera settings for night skies, sunsets, waterfalls, interiors and more. Works offline. $19.">
 <meta name="theme-color" content="#0E1B2C">
-<meta property="og:title" content="Know the exact camera settings in 10 seconds">
-<meta property="og:description" content="50 printable cheat sheets for the shots that ruin travel photos. Instant PDF download.">
+<meta property="og:title" content="The right camera settings, on your phone, in 5 seconds">
+<meta property="og:description" content="50 Field Cards saved to your photo album. Open the situation, dial it in, take the shot. Works offline.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230E1B2C'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23FFB020'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://pay.hotmart.com">
@@ -63,7 +63,30 @@ section{padding:64px 0}
 .fix{margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .fix div{background:var(--mist);border-radius:10px;padding:10px 12px;font-size:.86rem;line-height:1.4}
 .fix b{display:block;font-size:.8rem;color:var(--blue);margin-bottom:2px}
+/* Phone frame: the card lives in your photo album */
+.phone{max-width:340px;width:100%;justify-self:center;background:#05080D;border-radius:46px;padding:11px;box-shadow:0 0 0 2px #2A3546,0 30px 60px -20px rgba(0,0,0,.6),0 10px 20px -10px rgba(0,0,0,.4)}
+.screen{border-radius:36px;overflow:hidden;background:var(--white)}
+.ph-top{display:flex;justify-content:space-between;align-items:center;padding:14px 20px 4px;font-size:.82rem;font-weight:600;color:#2563EB}
+.ph-top span:last-child{color:var(--muted);font-weight:500}
+.phone .sheet{box-shadow:none;border-radius:0;max-width:none}
+.phone .sheet-head{padding-top:8px}
+.phone .lcd dd{font-size:1.2rem}
 .sample-note{text-align:center;font-size:.9rem;color:#C4D4E6;margin-top:14px}
+
+/* Anatomy of a card */
+.anat{display:grid;gap:28px;margin-top:8px;align-items:start}
+.anat .sheet{max-width:420px;border:1px solid var(--line);box-shadow:0 24px 48px -28px rgba(14,27,44,.45)}
+.part{position:relative}
+.pin{position:absolute;top:-9px;right:-9px;z-index:1;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--gold);color:var(--night);font:800 .85rem/1 var(--sans);font-style:normal;box-shadow:0 0 0 3px var(--white)}
+.sheet-body .part .pin{right:-6px}
+.tipline{margin-top:10px;font-size:.86rem;line-height:1.4;padding:10px 12px;border-left:3px solid var(--gold);background:#FFF8E8;border-radius:0 10px 10px 0}
+.legend{list-style:none;display:grid;gap:14px}
+.legend li{display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start}
+.legend i{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--gold);color:var(--night);font:800 .9rem/1 var(--sans);font-style:normal}
+.legend b{display:block}
+.legend span{color:var(--muted);font-size:.96rem}
+.anat-cta{margin-top:26px;max-width:420px}
+.anat-note{font-weight:700;margin-top:18px}
 
 /* Problem */
 .problem{background:var(--white)}
@@ -161,7 +184,8 @@ footer p+p{margin-top:8px}
   section{padding:96px 0}
   .hero{padding-bottom:88px}
   .hero-grid{grid-template-columns:1.1fr .9fr;align-items:center;gap:56px;padding-top:40px}
-  .sheet{transform:rotate(1.5deg)}
+  .phone{transform:rotate(1.5deg)}
+  .anat{grid-template-columns:1fr 1fr;gap:48px}
   .hero .btn{max-width:420px}
   .fails{grid-template-columns:repeat(3,1fr)}
   .fail{grid-template-columns:1fr}
@@ -190,26 +214,28 @@ footer p+p{margin-top:8px}
   <div class="wrap">
     <div class="top">
       <a class="logo" href="#"><svg width="26" height="26" style="color:#FFB020"><use href="#i-aperture"/></svg>ShotReady</a>
-      <span class="price-tag">Instant PDF, $19</span>
+      <span class="price-tag">50 Field Cards, $19</span>
     </div>
 
     <div class="hero-grid">
       <div>
-        <h1>Stop missing the shot. Know the exact camera settings in 10&nbsp;seconds.</h1>
-        <p class="lede">50 printable cheat sheets for the moments that ruin travel photos: night skies, sunsets, waterfalls, dark interiors and fast action. One page per situation, with the numbers to dial in.</p>
-        <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get the 50 cheat sheets <small>$19</small></a>
+        <h1>The right camera settings, on your phone, in 5&nbsp;seconds.</h1>
+        <p class="lede">ShotReady is a Pocket Field System: 50 Field Cards saved to your photo album. Open the situation in front of you, dial in the settings, take the shot. Works offline, anywhere.</p>
+        <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get the Field Cards <small>$19</small></a>
         <div class="assure">
-          <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Instant download</span>
+          <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Instant access by email</span>
           <span><svg width="16" height="16"><use href="#i-shield"/></svg>30-day money-back guarantee</span>
-          <span><svg width="16" height="16"><use href="#i-check"/></svg>Any DSLR or mirrorless</span>
+          <span><svg width="16" height="16"><use href="#i-check"/></svg>Works offline</span>
         </div>
       </div>
 
       <div>
-        <article class="sheet" aria-label="Free sample cheat sheet: Milky Way">
+        <div class="phone"><div class="screen">
+        <div class="ph-top" aria-hidden="true"><span>&lsaquo; ShotReady</span><span>Offline</span></div>
+        <article class="sheet" aria-label="Free sample Field Card: Milky Way">
           <div class="sheet-head">
             <h2>Milky Way</h2>
-            <span>Night &amp; Sky<br>Sheet 1 of 50</span>
+            <span>Night &amp; Sky<br>Card 1 of 50</span>
           </div>
           <dl class="lcd">
             <div><dt>Mode</dt><dd>M</dd></div>
@@ -232,7 +258,8 @@ footer p+p{margin-top:8px}
             </div>
           </div>
         </article>
-        <p class="sample-note">This is a real sheet. Screenshot it and use it tonight.</p>
+        </div></div>
+        <p class="sample-note">This is a real Field Card. Screenshot it and use it tonight.</p>
       </div>
     </div>
   </div>
@@ -241,8 +268,8 @@ footer p+p{margin-top:8px}
 <main>
 <section class="problem cv">
   <div class="wrap narrow">
-    <h2>Your camera can take the shot. The settings are the hard part.</h2>
-    <p>You were there. The sky was on fire, the waterfall was perfect, the cathedral was breathtaking. Then you looked at the screen, and the photo didn't look anything like it.</p>
+    <h2>The light is perfect. Your mind goes blank.</h2>
+    <p>ISO? Shutter speed? Which mode was it again? So you switch to Auto, or open YouTube and start scrolling. Either way, you come home with photos that look nothing like what you saw.</p>
     <div class="fails">
       <div class="fail">
         <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="20" fill="#EEF3F9"/><path d="M12 26c4-2 8-2 12-6s6-6 8-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="15" cy="15" r="1.8" fill="currentColor"/><path d="M27 29h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
@@ -257,32 +284,79 @@ footer p+p{margin-top:8px}
         <div><h3>Dark, grainy interiors</h3><p>Museums, churches and restaurants come out muddy, with the detail smeared away.</p></div>
       </div>
     </div>
-    <p class="punch">None of this needs a better camera. It needs the right three numbers at the moment you're standing there.</p>
+    <p class="punch">The problem isn't talent. Nobody remembers 50 different settings under pressure. So don't: keep them in your pocket.</p>
   </div>
 </section>
 
 <section class="how cv">
   <div class="wrap">
-    <h2>How it works</h2>
+    <h2>How the Pocket Field System works</h2>
     <ol class="steps">
-      <li><div><h3>Download instantly</h3><p>Your PDF link arrives by email right after checkout.</p></div></li>
-      <li><div><h3>Save or print</h3><p>Keep the set on your phone, or print the sheets for this trip and slip them into your camera bag.</p></div></li>
-      <li><div><h3>Find, dial, shoot</h3><p>On location, open the sheet for the situation, set the numbers, take the shot.</p></div></li>
+      <li><div><h3>Save it once</h3><p>After checkout, save the 50 Field Cards to an album on your phone. Two minutes, no app to install.</p></div></li>
+      <li><div><h3>Open the situation</h3><p>Waterfall, night sky, museum, sunset: tap the card that matches what's in front of you.</p></div></li>
+      <li><div><h3>Dial and shoot</h3><p>Read the settings, set your camera, take the shot. If it comes out wrong, the card tells you what to change first.</p></div></li>
     </ol>
+  </div>
+</section>
+
+<section class="cv" id="card">
+  <div class="wrap">
+    <h2>Every card answers 5 questions in one screen</h2>
+    <div class="anat">
+      <article class="sheet" aria-label="Example Field Card: Silky waterfalls">
+        <div class="sheet-head">
+          <h2>Silky waterfalls</h2>
+          <span>Water &amp; Motion<br>Card 18 of 50</span>
+        </div>
+        <div class="part"><i class="pin" aria-hidden="true">1</i>
+        <dl class="lcd">
+          <div><dt>Mode</dt><dd>M</dd></div>
+          <div><dt>ISO</dt><dd>100</dd></div>
+          <div><dt>Aperture</dt><dd>f/11</dd></div>
+          <div><dt>Shutter</dt><dd>1s</dd></div>
+          <div><dt>Filter</dt><dd>ND8</dd></div>
+          <div><dt>Focus</dt><dd>AF-S</dd></div>
+        </dl></div>
+        <div class="sheet-body">
+          <div class="part"><i class="pin" aria-hidden="true">2</i>
+          <ol>
+            <li>Tripod, 2-second timer, image stabilization off.</li>
+            <li>Shutter 1/2s to 2s. In daylight, add an ND filter.</li>
+            <li>Watch the highlights: white water blows out first.</li>
+          </ol></div>
+          <div class="fix">
+            <div class="part"><i class="pin" aria-hidden="true">3</i><b>Water is a white blob?</b>Shorter shutter, or a stronger ND filter.</div>
+            <div class="part"><i class="pin" aria-hidden="true">4</i><b>Best time</b>Overcast days, or waterfalls in full shade.</div>
+          </div>
+          <div class="part tipline"><i class="pin" aria-hidden="true">5</i><b>Pro tip:</b> a polarizer removes the glare on wet rocks and deepens green moss.</div>
+        </div>
+      </article>
+      <div>
+        <ol class="legend">
+          <li><i aria-hidden="true">1</i><div><b>What do I set?</b><span>The exact starting settings: mode, ISO, aperture, shutter speed.</span></div></li>
+          <li><i aria-hidden="true">2</i><div><b>In what order?</b><span>Short, numbered steps.</span></div></li>
+          <li><i aria-hidden="true">3</i><div><b>What if it's wrong?</b><span>Quick fixes for too dark, too bright, blurry or noisy.</span></div></li>
+          <li><i aria-hidden="true">4</i><div><b>When is it best?</b><span>The best time and conditions for that situation.</span></div></li>
+          <li><i aria-hidden="true">5</i><div><b>What do pros do differently?</b><span>One practical tip.</span></div></li>
+        </ol>
+        <p class="anat-note">No chapters to read. No scrolling. One situation, one screen.</p>
+        <a class="btn anat-cta" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get all 50 Field Cards <small>$19</small></a>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="inside cv" id="inside">
   <div class="wrap">
-    <h2>50 situations, one page each</h2>
-    <p class="intro">Every sheet has the same layout: the settings first, then the steps, then the fix for what usually goes wrong. You'll find your number in seconds.</p>
+    <h2>50 situations, organized the way you shoot</h2>
+    <p class="intro">Every card has the same layout, so after the first one you know exactly where to look: settings at the top, steps in the middle, the fix at the bottom.</p>
     <div class="cats">
-      <div class="cat"><h3>Night &amp; sky <span>9 sheets</span></h3><ul class="chips"><li>Milky Way</li><li>Star trails</li><li>Northern lights</li><li>The moon</li><li>Lightning</li><li>Fireworks</li><li>Light painting</li><li>Night cityscapes</li><li>Blue hour</li></ul></div>
-      <div class="cat"><h3>Golden light <span>8 sheets</span></h3><ul class="chips"><li>Sunrise &amp; sunset</li><li>Golden hour portraits</li><li>Silhouettes</li><li>Backlit scenes</li><li>Harsh midday sun</li><li>Fog &amp; mist</li><li>Snow</li><li>Rainbows</li></ul></div>
-      <div class="cat"><h3>Water &amp; motion <span>8 sheets</span></h3><ul class="chips"><li>Silky waterfalls</li><li>Long-exposure seascapes</li><li>Reflections</li><li>Panning</li><li>Fast action</li><li>Birds in flight</li><li>Car light trails</li><li>Rain &amp; storms</li></ul></div>
-      <div class="cat"><h3>Travel &amp; people <span>8 sheets</span></h3><ul class="chips"><li>Street photography</li><li>Travel portraits</li><li>Candid moments</li><li>Markets &amp; crowds</li><li>Food</li><li>Museums</li><li>Churches &amp; interiors</li><li>Festivals &amp; concerts</li></ul></div>
-      <div class="cat"><h3>Landscapes &amp; cities <span>9 sheets</span></h3><ul class="chips"><li>Sharp front to back</li><li>Mountains</li><li>Beaches</li><li>Deserts</li><li>Architecture</li><li>Skylines</li><li>Panoramas</li><li>HDR bracketing</li><li>Focus stacking</li></ul></div>
-      <div class="cat"><h3>Core skills <span>8 sheets</span></h3><ul class="chips"><li>Exposure triangle</li><li>Reading the histogram</li><li>Metering modes</li><li>Focus modes</li><li>White balance</li><li>Shooting RAW</li><li>Composition</li><li>Pre-trip camera setup</li></ul></div>
+      <div class="cat"><h3>Night &amp; sky <span>9 cards</span></h3><ul class="chips"><li>Milky Way</li><li>Star trails</li><li>Northern lights</li><li>The moon</li><li>Lightning</li><li>Fireworks</li><li>Light painting</li><li>Night cityscapes</li><li>Blue hour</li></ul></div>
+      <div class="cat"><h3>Golden light <span>8 cards</span></h3><ul class="chips"><li>Sunrise &amp; sunset</li><li>Golden hour portraits</li><li>Silhouettes</li><li>Backlit scenes</li><li>Harsh midday sun</li><li>Fog &amp; mist</li><li>Snow</li><li>Rainbows</li></ul></div>
+      <div class="cat"><h3>Water &amp; motion <span>8 cards</span></h3><ul class="chips"><li>Silky waterfalls</li><li>Long-exposure seascapes</li><li>Reflections</li><li>Panning</li><li>Fast action</li><li>Birds in flight</li><li>Car light trails</li><li>Rain &amp; storms</li></ul></div>
+      <div class="cat"><h3>Travel &amp; people <span>8 cards</span></h3><ul class="chips"><li>Street photography</li><li>Travel portraits</li><li>Candid moments</li><li>Markets &amp; crowds</li><li>Food</li><li>Museums</li><li>Churches &amp; interiors</li><li>Festivals &amp; concerts</li></ul></div>
+      <div class="cat"><h3>Landscapes &amp; cities <span>9 cards</span></h3><ul class="chips"><li>Sharp front to back</li><li>Mountains</li><li>Beaches</li><li>Deserts</li><li>Architecture</li><li>Skylines</li><li>Panoramas</li><li>HDR bracketing</li><li>Focus stacking</li></ul></div>
+      <div class="cat"><h3>Core skills <span>8 cards</span></h3><ul class="chips"><li>Exposure triangle</li><li>Reading the histogram</li><li>Metering modes</li><li>Focus modes</li><li>White balance</li><li>Shooting RAW</li><li>Composition</li><li>Pre-trip camera setup</li></ul></div>
     </div>
   </div>
 </section>
@@ -294,17 +368,17 @@ footer p+p{margin-top:8px}
       <div class="fit-box yes">
         <h3>Made for you if</h3>
         <ul>
-          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You own a good camera but still shoot mostly in Auto</li>
-          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You have a trip coming up and want photos worth printing</li>
-          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You'd rather glance at one page than watch a 40-minute tutorial</li>
-          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You forget settings between trips and want them in your bag</li>
+          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You own a camera with manual modes but mostly shoot in Auto</li>
+          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You travel, hike or explore and want better photos of the places you visit</li>
+          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You've watched tutorials but forget everything once you're in the field</li>
+          <li><svg width="18" height="18" style="color:#1F3A5F"><use href="#i-check"/></svg>You'd rather glance at one screen than watch a 40-minute video</li>
         </ul>
       </div>
       <div class="fit-box">
         <h3>Probably not for you if</h3>
         <ul>
           <li><svg width="18" height="18" style="color:#8A97A6"><use href="#i-x"/></svg>You already shoot in full manual without thinking</li>
-          <li><svg width="18" height="18" style="color:#8A97A6"><use href="#i-x"/></svg>You want a long course on photography theory</li>
+          <li><svg width="18" height="18" style="color:#8A97A6"><use href="#i-x"/></svg>You want a full photography course with video lessons</li>
           <li><svg width="18" height="18" style="color:#8A97A6"><use href="#i-x"/></svg>You only shoot in Auto and plan to keep it that way</li>
         </ul>
       </div>
@@ -314,12 +388,12 @@ footer p+p{margin-top:8px}
 
 <section class="compare cv">
   <div class="wrap narrow">
-    <h2>Why a cheat sheet beats the alternatives</h2>
+    <h2>Why it's not another ebook</h2>
     <div class="rows">
-      <div class="row"><b>YouTube tutorials</b><span class="cost">Free</span><p>Hours of watching, and no signal on the mountain when you need the answer.</p></div>
-      <div class="row"><b>An online course</b><span class="cost">$100+</span><p>Learned at your desk, forgotten by the time you're on location.</p></div>
+      <div class="row"><b>YouTube tutorials</b><span class="cost">Free</span><p>5 to 15 minutes per answer, and no signal on the mountain. Free, but it costs you the light.</p></div>
+      <div class="row"><b>A photography ebook</b><span class="cost">Varies</span><p>Written to be read at home. Minutes of scrolling through chapters to find one setting.</p></div>
       <div class="row"><b>Your camera manual</b><span class="cost">Included</span><p>Hundreds of pages about buttons. Nothing about the sunset in front of you.</p></div>
-      <div class="row us"><b>ShotReady cheat sheets</b><span class="cost">$19 once</span><p>The answer in 10 seconds, on paper or on your phone, offline, wherever you are.</p></div>
+      <div class="row us"><b>ShotReady Field Cards</b><span class="cost">$19 once</span><p>About 5 seconds per answer. One screen per situation, offline, with the fix if the shot comes out wrong.</p></div>
     </div>
   </div>
 </section>
@@ -327,25 +401,26 @@ footer p+p{margin-top:8px}
 <section class="offer cv" id="offer">
   <div class="wrap">
     <div class="offer-card">
-      <h2>Everything you get</h2>
+      <h2>What you get today</h2>
       <ul class="stack">
-        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>50 situation cheat sheets</b><span>Print-ready PDF in US Letter and A4</span></div></li>
-        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Phone edition of every sheet</b><span>Sized to read on your phone screen in one glance</span></div></li>
+        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Phone Edition: 50 Field Cards</b><span>High-resolution images sized for your phone. Save them to your photos and use them offline</span></div></li>
+        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Print Edition</b><span>The same 50 cards as printable files in US Letter and A4, for your camera bag</span></div></li>
         <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Pre-trip checklist</b><span>Gear, batteries, cards and the settings to reset before you leave</span></div></li>
-        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Free updates</b><span>New sheets added to the set are yours at no extra cost</span></div></li>
+        <li><svg width="20" height="20"><use href="#i-check"/></svg><div><b>Free updates</b><span>New cards added to the set are yours at no extra cost</span></div></li>
       </ul>
-      <div class="price"><strong>$19</strong><span>one-time payment<br>about 38¢ per sheet</span></div>
-      <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get instant access</a>
+      <p style="font-size:.92rem;color:var(--muted);text-align:center;margin:-6px 0 14px">Delivered instantly as digital files by email. No app, no subscription.</p>
+      <div class="price"><strong>$19</strong><span>one payment, yours to keep<br>about 38¢ per card</span></div>
+      <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get instant access <small>$19</small></a>
       <div class="assure">
-        <span><svg width="16" height="16"><use href="#i-lock"/></svg>Secure checkout</span>
-        <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Download in minutes</span>
+        <span><svg width="16" height="16"><use href="#i-lock"/></svg>Secure checkout by Hotmart</span>
+        <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Instant access by email</span>
       </div>
     </div>
     <div class="guar">
       <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="#FFB020" stroke-width="3"/><circle cx="32" cy="32" r="23" fill="none" stroke="#FFB020" stroke-width="1.5" stroke-dasharray="3 3"/><text x="32" y="31" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-weight="800" font-size="16" fill="#FFB020">30</text><text x="32" y="43" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-weight="700" font-size="8" fill="#FFD27A">DAYS</text></svg>
       <div>
-        <h3>Take them on your next shoot</h3>
-        <p>If the sheets don't help you get better photos, email us within 30 days for a full refund. No forms, no questions.</p>
+        <h3>30-day money-back guarantee</h3>
+        <p>Use the cards on your next shoot. If they don't make it easier to get the shot, ask for a refund within 30 days, through Hotmart or by email, and you'll get your money back in full.</p>
       </div>
     </div>
   </div>
@@ -354,23 +429,23 @@ footer p+p{margin-top:8px}
 <section class="faq cv">
   <div class="wrap narrow">
     <h2>Questions</h2>
-    <details><summary>Will this work with my camera?</summary><p>Yes, if your camera has manual (M) or priority modes (A/Av or S/Tv). That covers DSLRs and mirrorless cameras from Canon, Nikon, Sony, Fujifilm, Panasonic and OM System. Phones with a Pro or Manual mode can use most of the sheets too.</p></details>
-    <details><summary>I'm a beginner. Is this too advanced?</summary><p>No. Each sheet starts with the exact numbers to set, so you can get the shot before you understand the theory. The Core skills sheets explain the basics in plain English when you're ready.</p></details>
-    <details><summary>Is this a physical product?</summary><p>No. It's a digital download (PDF). Print the sheets at home or at any print shop, or keep them on your phone.</p></details>
-    <details><summary>How do I get it?</summary><p>Right after payment you'll receive an email with your download link. Check your spam folder if it isn't in your inbox within a few minutes.</p></details>
-    <details><summary>Do I need internet on location?</summary><p>No. Once downloaded or printed, the sheets work offline: on a mountain, on a boat or on a plane.</p></details>
-    <details><summary>Are the settings exact?</summary><p>They're proven starting points. Light changes from scene to scene, so every sheet tells you which setting to adjust first if your shot is too dark, too bright or blurry.</p></details>
+    <details><summary>Is this just a PDF?</summary><p>No. The main edition is 50 phone-sized Field Cards that live in your photo album, one screen per situation, built to be read in seconds while you're shooting. The printable files are a bonus for your bag.</p></details>
+    <details><summary>Will this work with my camera?</summary><p>Yes, if your camera has manual (M) or priority modes (A/Av or S/Tv). That covers DSLRs and mirrorless cameras from Canon, Nikon, Sony, Fujifilm, Panasonic and OM System. Phones with a Pro or Manual mode can use most of the cards too.</p></details>
+    <details><summary>I'm a beginner. Is this too advanced?</summary><p>No. Each card starts with the exact numbers to set, so you can get the shot before you understand the theory. The Core skills cards explain the basics in plain English when you're ready.</p></details>
+    <details><summary>How do I get it?</summary><p>Right after checkout you'll get an email with your download link. Most people have the cards on their phone in under 5 minutes. Check your spam folder if it isn't in your inbox.</p></details>
+    <details><summary>Do I need an app or internet?</summary><p>No app. Once the cards are saved to your phone, they work offline: on a mountain, on a boat or on a plane.</p></details>
+    <details><summary>Are the settings exact?</summary><p>They're proven starting points. Light changes from scene to scene, so every card tells you which setting to adjust first if your shot is too dark, too bright or blurry.</p></details>
     <details><summary>What if I don't like them?</summary><p>Email us within 30 days of purchase and we'll refund you in full.</p></details>
   </div>
 </section>
 
 <section class="final cv">
   <div class="wrap narrow">
-    <h2>Your next trip deserves photos you're proud of</h2>
-    <p>50 situations, the right settings for each one, in your pocket for $19.</p>
-    <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get the 50 cheat sheets <small>$19</small></a>
+    <h2>Next time the light is perfect, you'll know exactly what to do</h2>
+    <p>50 Field Cards in your pocket, offline, for $19.</p>
+    <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta>Get the Field Cards <small>$19</small></a>
     <div class="assure">
-      <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Instant download</span>
+      <span><svg width="16" height="16"><use href="#i-bolt"/></svg>Instant access</span>
       <span><svg width="16" height="16"><use href="#i-shield"/></svg>30-day guarantee</span>
     </div>
   </div>
@@ -386,8 +461,8 @@ footer p+p{margin-top:8px}
 </footer>
 
 <div class="bar" id="bar" aria-hidden="true">
-  <div><b>50 cheat sheets, $19</b><span>Instant PDF download</span></div>
-  <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta tabindex="-1">Get them</a>
+  <div><b>50 Field Cards, $19</b><span>Works offline</span></div>
+  <a class="btn" href="https://pay.hotmart.com/YOUR-PRODUCT-CODE" data-cta tabindex="-1">Get it</a>
 </div>
 
 <script>
